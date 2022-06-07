@@ -2,37 +2,129 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.AppTitle {
+  text-align: left;
+  margin-left: 10px;
+  color: #cedff1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.GridContainer {
+  width: 100%;
+  margin: 2rem auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.GridItem {
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  display: flex;
+}
+
+.DialogItem {
+  background-color: #345979;
+}
+
+.DialogTitle {
+  background-color: #254864;
+  color: #cedff1;
+  text-align: center;
+}
+
+.ThumbInfo {
+  display: flex;
+  justify-content: center;
+}
+
+.Thumbnail-main {
+  height: 200px;
+  width: 300px;
+  background-color: #254864;
+  margin: 5px 5px 5px 5px
+}
+
+.ThumbnailUrlImg {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+.ThumbnailUrlImgDialog {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+  display: flex;
+}
+
+.ThumbnailImg {
+  background-color: #345979;
+  padding-bottom: 15px;
+  margin: 5px;
+}
+
+.ThumbnailTitle {
+  margin-bottom: 0px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.ThumbnailId {
+  margin-top: 0px;
+  color: #587b9e;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.ThumbnailIdDialog {
+  margin-top: 20px;
+  color: #cedff1;
+  text-align: center;
+}
+
+.ThumbnailUrl {
+  background-color: #192c3d;
+  color: #587b9e;
+  height: 30px;
+  margin: 5px;
+  border-radius: 2px;
+}
+
+.ThumbnailUrlP {
+  text-align: left;
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+.Search {
+  background: transparent;
+  border: 1px solid #5a7ea1;
+  border-radius: 4px;
+  height: 30px;
+  width: 250px;
+  color: white;
+  font-size:large;
+  padding-left: 5px;
+  margin-top: 15px;
+}
+
+.Search::placeholder {
+  color: #3a5872;
+  font-size:large;
+  padding-left: 5px;
+}
+
+.SerachButton, .CancelSerachButton{
+  background-color: transparent;
+  border: none;
+}
+
+.SelectAlbum {
+  background: transparent;
+  border: 1px solid #5a7ea1;
+  border-radius: 4px;
+  height: 33px;
+  width: 200px;
+  color: #5a7ea1;
+  font-size:large;
+  padding: 5px;
+  margin-left: 20px;
+  margin-top: 15px;
 }

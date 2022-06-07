@@ -21,10 +21,14 @@ const App = () => {
   useEffect(() => {
     getPhotos();
     getAlbums();
+
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   
   useEffect(() => {
     getPhotos();
+    
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selctedAlbumId]);
 
   /**
